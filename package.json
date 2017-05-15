@@ -1,0 +1,29 @@
+{
+  "name": "thuongbot",
+  "version": "0.0.0",
+  "private": true,
+  "author": "thuongtran thuong.tran@dounets.com",
+  "description": "test hubot for dou",
+  "dependencies": {
+    "hubot": "^2.19.0",
+    "hubot-dad-joke": "^1.1.1",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-google-images": "^0.2.6",
+    "hubot-google-translate": "awailly/hubot-google-translate#fix-tests",
+    "hubot-help": "^0.2.0",
+    "hubot-heroku-keepalive": "^1.0.2",
+    "hubot-maps": "0.0.2",
+    "hubot-pugme": "^0.1.0",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-rules": "^0.1.1",
+    "hubot-scripts": "^2.17.2",
+    "hubot-shell": "^1.0.2",
+    "hubot-shipit": "^0.2.0",
+    "hubot-tell-a-joke": "0.0.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
