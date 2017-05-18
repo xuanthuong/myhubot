@@ -5,6 +5,7 @@
   "author": "thuongtran thuong.tran@dounets.com",
   "description": "test hubot for dou",
   "dependencies": {
+    "html-to-text": "^3.2.0",
     "hubot": "^2.19.0",
     "hubot-dad-joke": "^1.1.1",
     "hubot-diagnostics": "0.0.1",
@@ -20,6 +21,7 @@
     "hubot-shell": "^1.0.2",
     "hubot-shipit": "^0.2.0",
     "hubot-tell-a-joke": "0.0.2",
+    "lodash": "^4.17.4",
     "request": "^2.81.0",
     "request-promise": "^4.2.1"
   },
