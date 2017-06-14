@@ -1,0 +1,9 @@
+#!/bin/bash
+echo hubot configurating...
+export ROCKETCHAT_URL=http://chat.dounets.com
+export ROCKETCHAT_AUTH=''
+export ROCKETCHAT_USER=doubot
+export ROCKETCHAT_PASSWORD=doubot
+export LISTEN_ON_ALL_PUBLIC=true
+export ROCKETCHAT_ROOM='[DOU-CLT]'
+echo Done!
