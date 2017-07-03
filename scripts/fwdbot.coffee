@@ -20,7 +20,7 @@
 # }
 
 
-url = "http://10.0.14.199:8080"
+url = "http://dounets.com:5050"
 
 basicBLInfo = ['Shipper', 'Consignee', 'POL', 'ETD', 'POD', 'Carrier', 'Vessel Name']
 allBLInfo = ['Shipper', 'Consignee', 'POL', 'ETD', 'POD', 'Carrier', 'Vessel Name']
