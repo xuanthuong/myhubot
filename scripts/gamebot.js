@@ -65,7 +65,7 @@ module.exports = function(robot) {
         "Content-type": "application/json",
       },
       url: api_url,
-      json: notice
+      json: JSON.stringify(notice)
       }, 
       function(error, response, body){
         console.log(body)
