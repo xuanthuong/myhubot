@@ -15,7 +15,7 @@ var image = {
 }
 
 // var api_url = "http://dounets.com:5002/rocketchat/notify-game-results"
-var api_url = "http://localhost:3000/api/v1/chat.postMessage"
+var api_url = "http://chat.dounets.com/api/v1/chat.postMessage"
 
 module.exports = function(robot) {
   robot.hear(/notice result/i, function(res) {
