@@ -25,7 +25,8 @@ module.exports = function(robot) {
     var image_url = image[keys[ keys.length * Math.random() << 0]]
     
     notice = {
-        "roomId": "Brtxss4cSLYXRWykLFJXEFjcEP7c7itXQz",
+        "roomId": "",
+        "channel": "#general",
         "text": "Today game result",
         "alias": "Boss",
         "emoji": ":smirk:",
@@ -59,17 +60,16 @@ module.exports = function(robot) {
     }
 
     request.post({
-      header:{
+      headers:{
         "X-Auth-Token": "ADNb25uAenMiyJsCWMut6DwNuHtvlOhwr5sghmDEj0C",
         "X-User-Id": "Brtxss4cSLYXRWykL",
         "Content-type": "application/json",
       },
       url: api_url,
-      json: JSON.stringify(notice)
+      json: notice
       }, 
       function(error, response, body){
         console.log(body)
-        console.log(error)
       })
     
     // notice = JSON.stringify(notice)
