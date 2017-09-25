@@ -1,0 +1,16 @@
+{
+  "apps": [{
+    "name": "HUBOT-RC",
+    "cwd": ".",
+    "args": [
+      ""
+    ],
+    "env": {
+    },
+    "script": "/home/thuong/dou-projects/myhubot/bin/hubot -a rocketchat --name game-admin",
+    "node_args": [],
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "exec_interpreter": "bash",
+    "exec_mode": "fork"
+  }]
+}  
