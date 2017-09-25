@@ -12,7 +12,7 @@ var options = {
     mode: 'text',
     pythonPath: '/Users/thuong/.Python_VEnv/Python3.6/.textblob/bin/python',
     // pythonOptions: ['-u'],
-    scriptPath: '/Users/thuong/Projects/chatbot/brobot',
+    scriptPath: './scripts',
     args: ['hello']
 };
 
