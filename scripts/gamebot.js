@@ -1,7 +1,7 @@
-const request = require('request')
+var request = require('request')
 
 // Notice Image to RocketChat
-let image = {
+var image = {
   "well_done": "https://thumbs.dreamstime.com/b/well-done-23443783.jpg",
   "supper": "https://cdn.schoolstickers.com/products/en/819/128740-05.png",
   "great_job": "https://sites.create-cdn.net/siteimages/37/9/9/379961/12/9/0/12909934/450x430.jpg?1469478215",
@@ -14,14 +14,14 @@ let image = {
   "you_can_do_it": "http://khmer-online.com/wp-content/uploads/2016/09/you-can-do-it.png"
 }
 
-let api_url = "http://dounets.com:5002/rocketchat/notify-game-results"
+var api_url = "http://dounets.com:5002/rocketchat/notify-game-results"
 
 module.exports = function(robot) {
   robot.hear(/notice result/i, function(res) {
 
     var keys = Object.keys(image)
 
-    let image_url = image[keys[ keys.length * Math.random() << 0]]
+    var image_url = image[keys[ keys.length * Math.random() << 0]]
     
     notice = {
         "roomId": "thuongtran",
