@@ -60,7 +60,7 @@ module.exports = function(robot) {
 
     request.post({
       url: api_url,
-      json: notice
+      json: JSON.stringify(notice)
       }, 
       function(error, response, body){
         console.log(body)
