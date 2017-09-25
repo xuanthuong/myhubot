@@ -14,7 +14,8 @@ var image = {
   "you_can_do_it": "http://khmer-online.com/wp-content/uploads/2016/09/you-can-do-it.png"
 }
 
-var api_url = "http://dounets.com:5002/rocketchat/notify-game-results"
+// var api_url = "http://dounets.com:5002/rocketchat/notify-game-results"
+var api_url = "http://localhost:3000/api/v1/chat.postMessage"
 
 module.exports = function(robot) {
   robot.hear(/notice result/i, function(res) {
